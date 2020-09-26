@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="index.html" method="post">
+    <label>Imię: <input typ="test" name="firstName"></label><br/>
+    <label>Nazwisko: <input typ="test" name="lastName"></label><br/>
+    <label>Hasło: <input typ="password" name="password"></label><br/>
+    <label>E-mail: <input typ="email" name="email"></label><br/>
+    <label>Wpisz liczbę od 1 do 5: <input typ="number" min="1" max="5" name="number"></label><br/>
+    <label>Url: <input type="url" name="url"></label><br/>
+    <label>Pesel <input type="text" name="pesel" pattern="^([0-9]{2} ){4}[0-9]{3}$" title="dd dd dd dd ddd"></label><br/>
+    <label>Płeć:
+        <select name="gender">
+            <option value="female">Kobieta</option>
+            <option value="male">Mężczyzna</option>
+        </select>
+    </label>
+    <label>Wiadomość:
+        <textarea name="message">Dzień Dobry!</textarea></label><br/>
+    <button type="submit">Wyślij</button><br/>
+    <button type="submit">Wyczyść</button><br/>
+</form>
+</body>
+</html>
