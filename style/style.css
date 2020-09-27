@@ -27,3 +27,26 @@ img {
     right: 450px;
     visibility: visible;
 }
+a{
+    text-decoration: none;
+}
+a:link{
+    color:#4CAF50;
+}
+a:visited{
+    color:#c08e8e;
+}
+a:active{
+    color:#7bd7b4;
+}
+a:hover{
+    margin-top:5px;
+    margin-left:2px;
+    margin-weight: bold;
+}
+p::first-letter{
+    front-size:45px;
+}
+li:nth-child(2){
+    background-color: red;
+}
